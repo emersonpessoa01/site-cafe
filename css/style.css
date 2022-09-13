@@ -274,11 +274,18 @@ section {
   gap: 1.5rem;
   justify-content: center;
 }
-
-.gallery .box-container img {
+.gallery .box-container .image {
+  height: 100%;
+  overflow: hidden;
+  transition: all 0.7s ease-in-out;
+}
+.gallery .box-container .image img {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+.gallery .box-container .image:hover img {
+  transform: scale(1.2);
 }
 
 .team .box-container {
@@ -476,4 +483,3 @@ section {
     height: 40px;
   }
 }
-
