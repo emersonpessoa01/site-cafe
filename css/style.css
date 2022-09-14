@@ -278,6 +278,7 @@ section {
   height: 100%;
   overflow: hidden;
   transition: all 0.7s ease-in-out;
+  cursor:pointer;
 }
 .gallery .box-container .image img {
   height: 100%;
@@ -296,15 +297,25 @@ section {
 }
 
 .team .box-container .box {
-  text-align: center;
+  /* text-align: center; */
+  height: 100%;
+  overflow: hidden;
+  transition: all 0.7s ease-in-out;
+  cursor: pointer;
+
 }
 
 .team .box-container .box img {
+  height: 100%;
   width: 100%;
   object-fit: cover;
   margin-bottom: 0.5rem;
 }
+.team .box-container .box:hover img{
+  transform: scale(1.2);
+  filter: grayscale(1)
 
+}
 .team .box-container .box h3 {
   font-size: 2rem;
   color: var(--black);
