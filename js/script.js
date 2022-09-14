@@ -7,13 +7,13 @@ menu.onclick = () => {
   navbar.classList.toggle("active");
 };
 
-window.onscroll = () => {
+window.addEventListener("scroll",() => {
   menu.classList.remove("fa-times");
   navbar.classList.remove("active");
-};
+});
 
 window.onscroll = () => {
-  scrollTop.classList.toggle("active", window.scrollY);
+  scrollTop.classList.toggle("active", window.scrollY > 450);
 };
 scrollTop.onclick = () => {
   window.scrollTo({
