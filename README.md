@@ -6,7 +6,7 @@
 
 ## Pré-visualização:
 
-[coffee-website-2](https://site-cafe.vercel.app/)
+[site-cafe](https://site-cafe.vercel.app/)
 
 <div align="center"><img src="images/coffee-website.png" width=auto>
 </div>
